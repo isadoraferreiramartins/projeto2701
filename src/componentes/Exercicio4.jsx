@@ -19,7 +19,7 @@ function Exercicio4() {
   {
     return (
       <div
-        style={{ padding: "20px", border: "1px solid #ccc", marginTop: "10px" }}
+        style={{ padding: "10px", border: "1px solid #ccc", marginTop: "10px" }}
       >
         <h2>Resultado do Estoque</h2>
         <button onClick={mostrarInsumo}>Verificar Insumo</button>
@@ -32,6 +32,7 @@ function Exercicio4() {
         />
         <p id="estoque-insumo">Quantidade em Estoque:...</p>
       </div>
+
     );
   }
 }
