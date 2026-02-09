@@ -22,16 +22,16 @@ function Exercicio3() {
   return (
     <div
       id="container-fatura"
-      style={{ padding: "20px", border: "1px solid #ccc" }}
+      style={{ padding: "20px", border: "1px solid #ccc", marginTop: "10px" }}
     >
       <h2>Processamento de Fatura</h2>
       <h3>Resultado Financeiro</h3>
 
       <div
         id="detalhes-fatura"
-        style={{ margintop: "10px", fontWeight: "bold" }}
+        style={{ marginTop: "10px", fontWeight: "bold" }}
       >
-        <button onClick={processarDados}>Processar Dados</button>
+        <button style={{ padding: "10px 20px", backgroundColor: "#1bac27", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }} onClick={processarDados}>Processar Dados</button>
       </div>
     </div>
   );

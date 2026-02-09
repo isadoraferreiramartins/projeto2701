@@ -22,7 +22,7 @@ function Exercicio4() {
         style={{ padding: "10px", border: "1px solid #ccc", marginTop: "10px" }}
       >
         <h2>Resultado do Estoque</h2>
-        <button onClick={mostrarInsumo}>Verificar Insumo</button>
+        <button style={{ padding: "10px 20px", backgroundColor: "#1bac27", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }} onClick={mostrarInsumo}>Verificar Insumo</button>
 
         <h3 id="nome-insumo">Insumo Agrícola</h3>
         <img

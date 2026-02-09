@@ -10,7 +10,7 @@ function Exercicio7() {
       style={{ padding: "20px", border: "1px solid #ccc", marginTop: "10px" }}
     >
       <h2>Cálculadora de Total de Produtos</h2>
-      <button onClick={CalcularTotal}>Calcular Total</button>
+      <button style={{ padding: "10px 20px", backgroundColor: "#1bac27", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }} onClick={CalcularTotal}>Calcular Total</button>
       <div
         id="total-produtos"
         style={{ marginTop: "10px", fontWeight: "bold" }}

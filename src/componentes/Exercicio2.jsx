@@ -6,11 +6,13 @@ function Exercicio2() {
   }
 
   return (
-    <div style={{ padding: "20px", border: "1px solid #ccc" }}>
+    <div
+      style={{ padding: "20px", border: "1px solid #ccc", marginTop: "10px" }}
+    >
       <h2>Controle de Pedidos</h2>
       <p className="status-pedido">Validando Pedido...</p>
 
-      <button onClick={atualizarStatus}>Atualizar Status</button>
+      <button style={{ padding: "10px 20px", backgroundColor: "#1bac27", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }} onClick={atualizarStatus}>Atualizar Status</button>
     </div>
   );
 }
